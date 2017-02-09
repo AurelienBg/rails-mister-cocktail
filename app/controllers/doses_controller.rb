@@ -17,8 +17,9 @@ before_action :set_dose, only: [ :destroy ]
   end
 
   def destroy
+    cocktail = @dose.cocktail
     @dose.delete
-    redirect_to cocktail_path(@dose.cocktail)
+    redirect_to cocktail_path(cocktail)
   end
 
   private
