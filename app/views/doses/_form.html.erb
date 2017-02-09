@@ -1,6 +1,6 @@
 <%= simple_form_for [@cocktail, @dose] do |f| %>
   <%= f.error_notification %>
   <%= f.input :description %>
-  <%= f.association :ingredient, prompt: "ingredient"%>
+  <%= f.association :ingredient, prompt: "ingredient", collection: Ingredient.order(:name) %>
   <%= f.button :submit %>
 <% end %>
