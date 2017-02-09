@@ -17,7 +17,7 @@ c4 = Cocktail.new(name: "Cubalibre")
 
 i1 = Ingredient.new(name: "lemon")
 i2 = Ingredient.new(name: "orange")
-i3 = Ingredient.create(name: "lemon")
+i3 = Ingredient.create(name: "lemoncito")
 i4 = Ingredient.create(name: "ice")
 i5 = Ingredient.create(name: "mint leaves")
 
