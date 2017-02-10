@@ -13,6 +13,7 @@ gem 'figaro'
 
 # Gemfile for pix upload
 gem 'cloudinary', '1.1.0'
+gem 'carrierwave'
 
 # FONT-END Gems
 gem 'bootstrap-sass'
