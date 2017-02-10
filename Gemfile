@@ -8,6 +8,9 @@ end
 # Gemfile for Heroku
 ruby '2.3.3'
 
+# Gemfile for pix upload
+gem 'figaro'
+
 # FONT-END Gems
 gem 'bootstrap-sass'
 gem 'font-awesome-sass'
